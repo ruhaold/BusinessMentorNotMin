@@ -1,0 +1,26 @@
+:root {
+  --container-max-widht: 1440px;
+  --container-padding: 60px;
+  --black: #0E0F11;
+  --white: #fff;
+  --gray: #C3C8CF;
+  --lightgray: #8F959B;
+  --yellow: #E0B330;
+  --red: #F24C41;
+  --bg-red: rgba(240, 87, 77, 0.20);
+  --bg: #F3F7FB;
+  --small-duration: .3s;
+  --click-duration: .05s
+}
+
+@media (width <= 1280px) {
+  :root {
+    --container-padding: 32px;
+  }
+}
+
+@media (width <= 414px) {
+  :root {
+    --container-padding: 16px;
+  }
+}

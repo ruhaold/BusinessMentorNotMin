@@ -1,0 +1,106 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img,
+svg {
+  height: auto;
+  max-width: 100%;
+}
+
+body {
+  min-width: 320px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: var(--black);
+  background-color: var(--bg);
+}
+
+.reset-btn {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.reset-btn:not(:disabled) {
+  cursor: pointer;
+}
+
+.reset-list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: var(--container-padding);
+  padding-left: var(--container-padding);
+  max-width: var(--container-max-widht);
+}
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  clip: rect(0, 0, 0, 0);
+}
+
+.section-container {
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+
+.section-title {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: normal;
+  color: var(--black);
+}
+
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+@media (width <= 1280px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (width <= 767px) {
+  .section-container {
+    padding-top: 50px;
+    padding-bottom: 42px;
+  }
+
+  .section-title {
+    margin-bottom: 12px;
+    font-size: 28px;
+  }
+}
+

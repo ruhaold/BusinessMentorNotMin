@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Author: Rinat Yarmuchametov,
+    Test task for Business Mentor">
+    <title>Тестовое задание</title>
+    <link href="normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <h1 class="visually-hidden">
+        Business Mentor - Тестовое задание
+    </h1>
+    <main>
+        <section class="rate" aria-label="Раздел сайта с описание доступных тарифов">
+            <div class="rate__container container">
+                <span class="rate__subtitle">выберите лучший</span>
+                <h2 class="rate__title">
+                    Актуальные тарифы
+                </h2>
+                <ul class="rate__list reset-list">
+                    <li class="rate__item">
+                        <article class="card">
+                            <div class="card_descr">
+                                <img class="card__icon" src="./img/card-icon.svg" alt="Изображение консультации">
+                                <h3 class="card__title">
+                                    Консультация
+                                </h3>
+                                <span class="card__text">Основные вопросы и направления</span>
+                            </div>
+                            <div class="card__price-wrap card__price-wrap--btn-none">
+                                <p class="card__price">
+                                    Бесплатно
+                                </p>
+                                <span class="card__timing">В любое время</span>
+                                <button class="card__btn reset-btn">
+                                    Выбрать
+                                </button>
+                            </div>
+                            <div class="card__advantages-wrap">
+                                <ul class="card__advantages-list reset-list">
+                                    <li class="card__advantages-item">В любое удобное время</li>
+                                    <li class="card__advantages-item">Расскажем о всех нюансах процедуры</li>
+                                    <li class="card__advantages-item">Предложим варианты решения вашей проблемы</li>
+                                    <li class="card__advantages-item">Подготовим рекомендаци</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="rate__item rate__item--basic-rate">
+                        <article class="card card--basic-rate">
+                            <div class="card-badge">
+                                <span>Лучший тариф</span>
+                            </div>
+                            <div class="card_descr">
+                                <img class="card__icon" src="./img/base-icon.svg" alt="Изображение базового тарифа">
+                                <h3 class="card__title">
+                                    Базовый тариф
+                                </h3>
+                                <span class="card__text">От любого банка без процентов и переплат</span>
+                            </div>
+
+                            <div class="card__price-wrap card__price-wrap--basic-rate">
+                                <p class="card__price card__price--basic-rate">
+                                    65 000 ₽
+                                </p>
+                                <span class="card__timing card__timing--basic-rate">Единоразовый платеж</span>
+                                <button class="card__btn reset-btn">
+                                    Выбрать
+                                </button>
+                            </div>
+                            <img class="card__garant-btn"  title="Для Вашего спокойствия мы гарантируем возврат оплаты в случае отсутствия списания долгов после процедуры." src="./img/base-img.png" alt="Изображение гарантии">
+
+                            <div class="card__advantages-wrap">
+                                <ul class="card__advantages-list reset-list">
+                                    <li class="card__advantages-item">Сбор всех необходимых документов</li>
+                                    <li class="card__advantages-item">Сбор всех необходимых документов</li>
+                                    <li class="card__advantages-item">Взаимодействие с финансовым управляющим</li>
+                                    <li class="card__advantages-item">Контроль процедуры реализац. имущества</li>
+                                    <li class="card__advantages-item">Поддержка и сопровождение клиента на всех этапах банкротства</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="rate__item">
+                        <article class="card">
+                            <div class="card-timer" >
+                                <img src="./img/clock.svg" alt="Изображение таймера">
+                                <span id="timer">00:00:00</span>
+                            </div>
+                            <div class="card_descr">
+                                <img class="card__icon" src="./img/icon-3.svg" alt="Изображение рассрочки">
+                                <h3 class="card__title">
+                                    Рассрочка
+                                </h3>
+                                <span class="card__text">От любого банка без процентов и переплат</span>
+                            </div>
+
+                            <div class="card__price-wrap">
+                                <p class="card__price">
+                                    3880 ₽ / мес.
+                                </p>
+                                <span class="card__timing">На 24 месяца</span>
+                                <button class="card__btn reset-btn" id="selectButton">
+                                    Выбрать
+                                </button>
+                            </div>
+                            <img class="card__garant-btn" title="Для Вашего спокойствия мы гарантируем возврат оплаты в случае отсутствия списания долгов после процедуры." src="./img/img-2.png" alt="Изображение гарантии">
+
+                            <div class="card__advantages-wrap">
+                                <ul class="card__advantages-list reset-list">
+                                    <li class="card__advantages-item">Удобные варианты рассрочки</li>
+                                    <li class="card__advantages-item">Комфортные условия оплаты</li>
+                                    <li class="card__advantages-item">Фиксированная сумма</li>
+                                    <li class="card__advantages-item">Гарантия возврата средств</li>
+                                    <li class="card__advantages-item">Остальное, что и в базовом тарифе</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
